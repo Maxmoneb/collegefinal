@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Smart Buy Shopping</title>
+</head>
+<body>
+  <div class="topnavbar">
+    <div class="topimg">
+      <a href="index.html" class="active"><img src="img/smart buy logo png.png" id="logo"></a>
+    </div>
+    <div class="toptext">
+      <a href="login.html"><img src="img/login.png" id="iconlogo"></a>
+      <a href="signup.html"><img src="img/sign up.png" id="iconlogo"></a>
+      <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="brand.html">Brands</a>
+    </div>
+  
+  </div>
+
+<div class="allwrapper">
+<center>
+      <div class="wrapper"> 
+        <div class="group"> 
+        <table>
+          <tr>
+            <td class="item-img"><img src="img/iphone.jpg"></td>
+            <td class="item-details">
+              <span class="item-title">Mobile</span>
+              <span class="item-size">iphone</span>
+              <span class="item-qty">
+                <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="500">
+
+
+
+              </span>
+            </td>
+            <td class="item-price">₹23000</td>
+          </tr>
+          <tr>
+           
+        
+        </table>
+        </div>
+        
+        <div class="divider"></div>
+        <table>
+          <tr>
+           <td  class="item-qty">Subtotal</td>
+           <td class="item-price">₹23000.00</td>
+          <tr>
+          <tr>
+           <td class="item-qty">Shipping</td>
+           <td class="item-price">₹102.00</td>
+          <tr>
+            <tr>
+           <td style="font-size:17px;" class="item-qty">Total</td>
+           <td style="font-size:17px;" class="item-price">23102.00</td>
+          <tr>
+            
+        </table>
+        
+        <div class="group"> 
+          <div class="popup">
+          <button  onclick="myFunction()">Checkout</button>
+          <span class="popuptext" id="myPopup">Your Order Placed... Thank You</span>
+
+          </div>
+        </div>
+        </div>
+
+</center>
+
+</div>
+
+
+
+
+
+
+<div class="footer">
+    Copyright © 2024 Smart Buy | All Rights Reserved.
+  </div>
+
+
+
+
+
+
+    
+</body>
+
+
+
+
+<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+
+</html>
